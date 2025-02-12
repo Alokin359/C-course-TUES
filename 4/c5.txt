@@ -1,0 +1,3 @@
+gcc -c maths.c -o maths.out
+ar rcs libmaths.a maths.out
+gcc c5.c -o main-c5 -L. -lmaths
